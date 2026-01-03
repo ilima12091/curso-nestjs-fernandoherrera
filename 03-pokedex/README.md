@@ -26,6 +26,12 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
+5. Reconstruir la BD con el seeder
+
+```
+http://localhost:3000/api/seed
+```
+
 ## Stack
 
 - NestJS
