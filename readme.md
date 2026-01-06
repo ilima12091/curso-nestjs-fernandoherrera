@@ -34,3 +34,15 @@ Temas principales:
 - Pipes
 - Configuración de ambientes
 - Dockerización
+
+## Sección 4
+
+En esta sección se implementa una API para una tienda de productos (teslo-shop) utilizando TypeORM y PostgreSQL.
+
+Temas principales:
+
+- Conexión a bases de datos SQL
+- Relaciones entre entidades
+- Validaciones avanzadas
+- Paginación
+- Manejo de errores y excepciones
