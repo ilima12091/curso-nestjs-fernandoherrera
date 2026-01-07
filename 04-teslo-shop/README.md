@@ -25,3 +25,9 @@ docker-compose up -d
 ```
 yarn start:dev
 ```
+
+5. Ejectar el seed para popular la base de datos con información de prueba utilizando el siguiente endpoint
+
+```
+GET http://localhost:3000/api/seed
+```
