@@ -46,3 +46,8 @@ Temas principales:
 - Validaciones avanzadas
 - Paginación
 - Manejo de errores y excepciones
+- Subida y validación de archivos
+- Guardado de archivos de forma local
+- Autenticación y autorización
+- Nest passport
+- Decoradores personalizados
