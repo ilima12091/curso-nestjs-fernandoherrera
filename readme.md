@@ -50,4 +50,7 @@ Temas principales:
 - Guardado de archivos de forma local
 - Autenticación y autorización
 - Nest passport
+- Estrategias de JWT
 - Decoradores personalizados
+- Composición de decoradores
+- Roles de usuario y guards personalizados
