@@ -30,34 +30,34 @@ export class AuthController {
     return this.authService.checkAuthStatus(user);
   }
 
-  @Get('private')
-  @UseGuards(AuthGuard())
-  testPrivateRoute(
-    @GetUser() user: User,
-    @GetUser('email') userEmail: string,
-    @RawHeaders() rawHeaders: string[],
-  ) {
-    return {
-      user,
-      userEmail,
-      rawHeaders,
-    };
-  }
+  // @Get('private')
+  // @UseGuards(AuthGuard())
+  // testPrivateRoute(
+  //   @GetUser() user: User,
+  //   @GetUser('email') userEmail: string,
+  //   @RawHeaders() rawHeaders: string[],
+  // ) {
+  //   return {
+  //     user,
+  //     userEmail,
+  //     rawHeaders,
+  //   };
+  // }
 
-  @Get('private2')
-  // No se acostumbra usar SetMetadata directamente, se crea un decorador personalizado, como el de RoleProtected.
-  // @SetMetadata('roles', ['admin', 'super-user'])
-  @RoleProtected(ValidRoles.admin, ValidRoles.superUser)
-  @UseGuards(AuthGuard(), UserRoleGuard)
-  testPrivateRoute2(@GetUser() user: User) {
-    return {
-      user,
-    };
-  }
+  // @Get('private2')
+  // // No se acostumbra usar SetMetadata directamente, se crea un decorador personalizado, como el de RoleProtected.
+  // // @SetMetadata('roles', ['admin', 'super-user'])
+  // @RoleProtected(ValidRoles.admin, ValidRoles.superUser)
+  // @UseGuards(AuthGuard(), UserRoleGuard)
+  // testPrivateRoute2(@GetUser() user: User) {
+  //   return {
+  //     user,
+  //   };
+  // }
 
-  @Get('private3')
-  @Auth()
-  testPrivateRoute3(@GetUser() user: User) {
-    return { user };
-  }
+  // @Get('private3')
+  // @Auth()
+  // testPrivateRoute3(@GetUser() user: User) {
+  //   return { user };
+  // }
 }
