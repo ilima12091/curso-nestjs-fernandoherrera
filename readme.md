@@ -54,3 +54,4 @@ Temas principales:
 - Decoradores personalizados
 - Composición de decoradores
 - Roles de usuario y guards personalizados
+- Nest swagger - OpenAPI
