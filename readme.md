@@ -55,3 +55,16 @@ Temas principales:
 - Composición de decoradores
 - Roles de usuario y guards personalizados
 - Nest swagger - OpenAPI
+
+## Sección 4 (continuación)
+
+En esta sección se implementa WebSockets para la comunicación en tiempo real.
+
+Temas principales:
+
+- WebSockets con NestJS
+- Gateways
+- Manejo de conexiones y desconexiones
+- Servicios para WebSockets
+- Emisión de eventos a clientes conectados
+- Actualización en tiempo real de la lista de clientes conectados
